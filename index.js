@@ -5,7 +5,7 @@ import newsRouter from "./routers/news/news.js";
 
 import authRoute from "./routers/publicRoutes.js";
 import privateRoutes from "./routers/privateRoutes.js";
-const PORT = 8080;
+const PORT = 80;
 const app = express();
 
 export const conn = mysql.createConnection({
