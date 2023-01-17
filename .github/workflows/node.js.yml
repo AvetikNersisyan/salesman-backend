@@ -26,4 +26,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: pm2 restart backend
-    - run: cd salesman-backend && sudo node index.js
+    - run: node index.js
