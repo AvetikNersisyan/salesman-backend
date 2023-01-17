@@ -7,7 +7,6 @@ import authRoute from "./routers/publicRoutes.js";
 import privateRoutes from "./routers/privateRoutes.js";
 const PORT = 80;
 const app = express();
-console.log(PORT);
 
 export const conn = mysql.createConnection({
   host: "localhost",
