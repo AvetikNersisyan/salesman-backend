@@ -26,6 +26,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: sudo killall -9 node &
-    - run: cd salesman-backend 
-    - run: git pull origin main
+    - run: cd home/ubuntu/salesman-backend && git pull origin main
     - run: sudo node index.js &
