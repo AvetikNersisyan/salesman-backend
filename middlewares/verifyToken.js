@@ -8,7 +8,7 @@ export const verifyToken = (req, res, next) => {
   const singleToken = tokenBearer || token;
 
   if (!singleToken) {
-    return res.status(403).send("Token is required! hopar kerpov 777");
+    return res.status(403).send("Token is required! hopar kerpov 7777");
   }
 
   try {
