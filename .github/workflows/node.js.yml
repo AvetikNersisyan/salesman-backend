@@ -25,5 +25,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: git pull https://github.com/AvetikNersisyan/salesman-backend.git
+    - run:  git fetch --all
+    - run: git reset --hard origin/master
     - run: sudo node index.js &
