@@ -26,5 +26,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: git fetch --all
-    - run: git reset --hard origin/master
+    - run: git reset --hard origin/main
     - run: sudo node index.js &
