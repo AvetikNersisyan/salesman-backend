@@ -26,4 +26,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: git fetch --all
+    - run: git rebase main
     - run: cd /home/ubuntu/salesman-backend && git pull && sudo node index.js &
