@@ -28,4 +28,4 @@ jobs:
     - run: git fetch --all
     - run: git checkout main
     - run: git pull origin main
-    - run: cd /home/ubuntu/salesman-backend && git pull && sudo node index.js &
+    - run: cd salesman-backend && git pull && sudo node index.js &
